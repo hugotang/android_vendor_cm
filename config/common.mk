@@ -226,9 +226,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.root_access=1
 else
 
-PRODUCT_PACKAGES += \
-    CMFota
-
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.root_access=0
 
